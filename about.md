@@ -9,7 +9,7 @@ active: about
 ---
 
 
-<div class="info-card" style="padding-top:0;">
+<div class="info-card" style="padding-top:0;"> 
     <div class="avatar"><img src="{{ site.images }}/yon.png" alt="Person"></div> 
     <div class="wrap">
         <p class="title"><strong>Yon</strong></p>
