@@ -1,0 +1,45 @@
+{% if page.bg %}
+  <aside class="sidebar" role="note" style="background-image: url({{ site.images }}/{{ page.bg }})">
+{% else %}
+  <aside class="sidebar" role="note" style="background-image: url({{ site.images }}/bg.svg)">
+{% endif %}
+
+  <div class="cover">
+
+    <div class="cover-text">
+      <div class="heading">
+
+        {% if page.tags %}
+          {% for tag in page.tags %}
+            <!--<a href="/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>-->
+            <a class="blog-logo" href="{{ site.baseurl }}">{{ site.title }}</a>
+          {% endfor %}
+        {% else %}
+          <!--{{ page.title }}-->
+          <a class="blog-logo" href="{{ site.baseurl }}">{{ site.title }}</a>
+        {% endif %}
+        
+
+      </div>
+
+      <p>
+        {% if page.summary %}
+          {{ page.summary }}
+        {% endif %}
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="address">
+    <!--<img src="{{site.baseurl}}{{ site.images }}/qr-code.png" alt="QR Code">-->
+    <p>BTC Adress:</p>
+    <p>1Ap2F7nespTbjHAKbDs9TkpxPJja9toNd4</p>
+    <p><small>Don't have a wallet? <a href="https://bitcoin.org/en/" target="_blank">Learn more</a>.</small></p>
+  </div>
+
+  <div id="weather"></div>
+
+  <div id="switcher"></div>
+</aside>

@@ -1,0 +1,48 @@
+$lg-break-point: 1200px;
+$break-point: 960px;
+$md-break-point: 640px;
+$sm-break-point: 320px;
+
+$aside-width: 35%;
+$content-wrapper-width: 62%;
+$article-max-width: 740px;
+$post-margin-left: 38%;
+
+$img: "../img";
+$js: "../js";
+$font: "../font";
+
+
+
+/*------------------------------------------------------------------------*\
+    = FONTS
+\*------------------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'apercupro';
+	src: url('../fonts/apercupro.eot');
+	src: local('☺'), url('../fonts/apercupro.woff') format('woff'), url('../fonts/apercupro.ttf') format('truetype'), url('../fonts/apercupro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'apercuprobold';
+	src: url('../fonts/apercuprobold.eot');
+	src: local('☺'), url('../fonts/apercuprobold.woff') format('woff'), url('../fonts/apercuprobold.ttf') format('truetype'), url('../fonts/apercuprobold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'weather';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

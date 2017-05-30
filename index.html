@@ -1,0 +1,14 @@
+---
+bg: "island.jpg"
+layout: default
+crawlertitle: "Jekyll blog"
+title: "yonycake"
+summary: "A place to get away with friends and family"
+---
+
+{% for post in site.posts limit: 3 %}
+  <article class="index-page">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.excerpt | truncatewords: 40 }}
+  </article>
+{% endfor %} 
