@@ -1,5 +1,5 @@
 ---
-bg: "owl.jpg"
+bg: "header-about.jpeg"
 layout: page
 title: "About"
 crawlertitle: "yonycake | About Us"
@@ -9,8 +9,8 @@ active: about
 ---
 
 
-<div class="info-card">
-    <div class="avatar"><img src="http://yonycake.github.io/assets/images/yon.png" alt="Person"></div> 
+<div class="info-card" style="padding-top:0;">
+    <div class="avatar"><img src="{{ site.images }}/yon.png" alt="Person"></div> 
     <div class="wrap">
         <p class="title"><strong>Yon</strong></p>
         <p>Let's all try to make an impactful influence on the World. Always insightful and willing to share good information with others. You can always catch him tinkering with tech stuff.</p>
@@ -18,7 +18,7 @@ active: about
 </div> 
 
 <div class="info-card">
-    <div class="avatar"><img src="http://yonycake.github.io/assets/images/mel.png" alt="Person"></div>
+    <div class="avatar"><img src="{{ site.images }}/mel.png" alt="Person"></div>
     <div class="wrap">
         <p class="title"><strong>Mel</strong></p>
         <p>Filled with a vibrant and welcoming spirit. Loves the outdoors but no bugs? Always willing to lend a helping hand sometimes two. If you're looking for a facelift you can always call her.</p>
@@ -26,7 +26,7 @@ active: about
 </div> 
 
 <div class="info-card">
-    <div class="avatar"><img src="http://yonycake.github.io/assets/images/melrose.png" alt="Person"></div>
+    <div class="avatar"><img src="{{ site.images }}/melrose.png" alt="Person"></div>
     <div class="wrap">
         <p class="title"><strong>Melrose</strong></p>
         <p>Full of energy and always ready for an adventure. Loves the water and her <em>Ju Ju</em> (AKA Milk).</p>
@@ -34,7 +34,7 @@ active: about
 </div> 
 
 <div class="info-card">
-    <div class="avatar"><img src="http://yonycake.github.io/assets/images/isa.png" alt="Person"></div>
+    <div class="avatar"><img src="{{ site.images }}/isa.png" alt="Person"></div>
     <div class="wrap">
         <p class="title"><strong>Isabella</strong></p>
         <p>Where's the food? Loves to eat, do not leave any consumables goods around, they may disappear.</p>
@@ -42,7 +42,7 @@ active: about
 </div> 
 
 <div class="info-card last">
-    <div class="avatar"><img src="http://yonycake.github.io/assets/images/chip.png" alt="Person"></div>
+    <div class="avatar"><img src="{{ site.images }}/chip.png" alt="Person"></div>
     <div class="wrap">
         <p class="title"><strong>Chocolate Chip</strong></p>
         <p>Brown and hairy, better known as 'Chip', loves to play, chase after you, but when Chip goes on break, he knocks-out, thong hanging out.</p>

@@ -326,9 +326,9 @@ a img {
     display: inline-block;
     width: 200px;
     height: 200px;
-    background: #ccc;
-    border-radius: 50%;
-    padding-right: 30px;
+    img {
+      border-radius: 50%;
+    }
   }
   .wrap {
     display: inline-block;
