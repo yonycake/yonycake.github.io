@@ -10,7 +10,7 @@ active: about
 
 
 <div class="info-card">
-    <div class="avatar"><img src="http://yonycake.github.io/assets/images/yon.png" alt="Person"></div>
+    <div class="avatar"><img src="http://yonycake.github.io/assets/images/yon.png" alt="Person"></div> 
     <div class="wrap">
         <p class="title"><strong>Yon</strong></p>
         <p>Let's all try to make an impactful influence on the World. Always insightful and willing to share good information with others. You can always catch him tinkering with tech stuff.</p>
