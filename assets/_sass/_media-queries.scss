@@ -170,3 +170,14 @@
     }
   }
 }
+
+@media(max-width: $md-break-point ) {
+  body {
+    .nav-main {
+        padding: 0 1rem 10px;
+        a:first-child {
+          margin-top: 40px;
+        }
+    }
+  }
+}
